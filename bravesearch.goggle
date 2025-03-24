@@ -10,19 +10,19 @@
 $discard
 
 ! Boost
-$boost=4,site=medsci.org
-$boost=4,site=journals.elsevier.com
-$boost=4,site=discoveryjournals.org
-$boost=4,site=jmedscindmc.com
-$boost=4,site=lupinepublishers.com
-$boost=4,site=amjmed.com
-$boost=4,site=nejm.org
-$boost=4,site=jmir.org
 $boost=4,site=archive.org
+$boost=3,site=medsci.org
+$boost=3,site=journals.elsevier.com
+$boost=3,site=discoveryjournals.org
+$boost=3,site=jmedscindmc.com
+$boost=3,site=lupinepublishers.com
+$boost=3,site=amjmed.com
+$boost=3,site=nejm.org
+$boost=3,site=jmir.org
 /journal/journallist/$boost=4,site=sciencepublishinggroup.com
-$boost=4,site=hsj.gr
-/medical-professionals/publications/$boost=4,site=mayoclinic.org
-$boost=4,site=pubmed.ncbi.nlm.nih.gov
+$boost=3,site=hsj.gr
+/medical-professionals/publications/$boost=3,site=mayoclinic.org
+$boost=3,site=pubmed.ncbi.nlm.nih.gov
 /journals/jama/$boost=3,site=jamanetwork.com
 $boost=3,site=sciencedirect.com
 $boost=3,site=nature.com
