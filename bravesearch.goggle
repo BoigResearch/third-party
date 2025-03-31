@@ -25,6 +25,7 @@ $boost=3,site=hsj.gr
 /medical-professionals/publications/$boost=3,site=mayoclinic.org
 $boost=3,site=pubmed.ncbi.nlm.nih.gov
 /journals/jama/$boost=3,site=jamanetwork.com
+$boost=3,site=usni.org
 $boost=3,site=sciencedirect.com
 $boost=4,site=nature.com
 $boost=3,site=springer.com

@@ -25,6 +25,7 @@ $boost=3,site=hsj.gr
 /medical-professionals/publications/$boost=3,site=mayoclinic.org
 $boost=3,site=pubmed.ncbi.nlm.nih.gov
 /journals/jama/$boost=3,site=jamanetwork.com
+$boost=3,site=usni.org
 $boost=3,site=sciencedirect.com
 $boost=4,site=nature.com
 $boost=3,site=springer.com
@@ -124,6 +125,7 @@ $boost=1,site=propublica.org
 $boost=1,site=axios.com
 $boost=1,site=buzzfeednews.com
 $boost=1,site=vice.com
+$boost=1,site=usatoday.com
 
 ! Canada News
 $boost=1,site=theglobeandmail.com
@@ -160,3 +162,4 @@ $boost=1,site=thesun.co.uk
 $boost=1,site=dailymail.co.uk
 $boost=1,site=mirror.co.uk
 $boost=1,site=express.co.uk
+$boost=1,site=sciencefocus.com
