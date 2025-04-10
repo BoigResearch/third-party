@@ -1,0 +1,8 @@
+! name: Boig
+! description: Brave Search Goggle with Web results only.
+! public: false
+! author: Boig
+! avatar: #4F73FF
+
+
+$downrank=3,site=amazon.com
