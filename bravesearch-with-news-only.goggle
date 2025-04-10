@@ -1,0 +1,75 @@
+! name: Boig
+! description: Brave Search Goggle with News results only.
+! public: false
+! author: Boig
+! avatar: #4F73FF
+
+
+! Remove everything not listed
+$discard
+
+! US News
+$boost=2,site=nytimes.com
+$boost=2,site=washingtonpost.com
+$boost=2,site=wsj.com
+$boost=2,site=cnn.com
+$boost=2,site=foxnews.com
+$boost=2,site=nbcnews.com
+$boost=2,site=abcnews.go.com
+$boost=2,site=cbsnews.com
+$boost=2,site=pbs.org
+$boost=1,site=usatoday.com
+$boost=1,site=latimes.com
+$boost=1,site=chicagotribune.com
+$boost=1,site=bostonglobe.com
+$boost=1,site=miamiherald.com
+$boost=1,site=denverpost.com
+$boost=1,site=seattletimes.com
+$boost=1,site=time.com
+$boost=1,site=newsweek.com
+$boost=1,site=theatlantic.com
+$boost=1,site=harpers.org
+$boost=1,site=huffpost.com
+$boost=1,site=politico.com
+$boost=1,site=propublica.org
+$boost=1,site=axios.com
+$boost=1,site=buzzfeednews.com
+$boost=1,site=vice.com
+$boost=1,site=usatoday.com
+
+! Canada News
+$boost=1,site=theglobeandmail.com
+$boost=1,site=thestar.com
+$boost=1,site=nationalpost.com
+$boost=1,site=cbc.ca
+$boost=1,site=ctvnews.ca
+$boost=1,site=globalnews.ca
+$boost=1,site=vancouversun.com
+$boost=1,site=ottawacitizen.com
+$boost=1,site=montrealgazette.com
+$boost=1,site=thechronicleherald.ca
+$boost=1,site=ici.radio-canada.ca
+$boost=1,site=thetyee.ca
+$boost=1,site=rabble.ca
+$boost=1,site=hilltimes.com
+$boost=1,site=thebreaker.news
+
+! United Kingdom News
+$boost=1,site=theguardian.com
+$boost=1,site=thetimes.co.uk
+$boost=1,site=telegraph.co.uk
+$boost=1,site=independent.co.uk
+$boost=1,site=ft.com
+$boost=1,site=bbc.co.uk
+$boost=1,site=itv.com
+$boost=1,site=skynews.com
+$boost=1,site=channel4.com
+$boost=1,site=theconversation.com
+$boost=1,site=opendemocracy.net
+$boost=1,site=newstatesman.com
+$boost=1,site=spectator.co.uk
+$boost=1,site=thesun.co.uk
+$boost=1,site=dailymail.co.uk
+$boost=1,site=mirror.co.uk
+$boost=1,site=express.co.uk
+$boost=1,site=sciencefocus.com
