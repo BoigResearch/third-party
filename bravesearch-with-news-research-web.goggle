@@ -1,13 +1,11 @@
 ! name: Boig
-! description: A Brave Search goggle for research, top publications, journals, etc.
+! description: Brave Search Goggle with News, Research, and Web results.
 ! public: false
-! author: Boig Research
+! author: Boig
 ! avatar: #4F73FF
 
 
-
-! Remove everything not listed
-$discard
+$downrank=3,site=amazon.com
 
 ! Boost
 $boost=3,site=medsci.org
@@ -19,13 +17,11 @@ $boost=3,site=amjmed.com
 $boost=4,site=nejm.org
 $boost=3,site=jmir.org
 $boost=4,site=archive.org
-$boost=4,site=arxiv.org
 /journal/journallist/$boost=3,site=sciencepublishinggroup.com
 $boost=3,site=hsj.gr
 /medical-professionals/publications/$boost=3,site=mayoclinic.org
 $boost=3,site=pubmed.ncbi.nlm.nih.gov
 /journals/jama/$boost=3,site=jamanetwork.com
-$boost=3,site=usni.org
 $boost=3,site=sciencedirect.com
 $boost=4,site=nature.com
 $boost=3,site=springer.com
@@ -97,3 +93,67 @@ $boost=3,site=noaa.gov
 $boost=4,site=gutenberg.org
 $boost=3,site=publicdomainreview.org
 $boost=3,site=hathitrust.org  
+
+! US News
+$boost=4,site=nytimes.com
+$boost=4,site=washingtonpost.com
+$boost=4,site=wsj.com
+$boost=4,site=cnn.com
+$boost=4,site=foxnews.com
+$boost=4,site=nbcnews.com
+$boost=4,site=abcnews.go.com
+$boost=4,site=cbsnews.com
+$boost=4,site=pbs.org
+$boost=3,site=usatoday.com
+$boost=3,site=latimes.com
+$boost=3,site=chicagotribune.com
+$boost=3,site=bostonglobe.com
+$boost=3,site=miamiherald.com
+$boost=3,site=denverpost.com
+$boost=3,site=seattletimes.com
+$boost=3,site=time.com
+$boost=3,site=newsweek.com
+$boost=3,site=theatlantic.com
+$boost=3,site=harpers.org
+$boost=3,site=huffpost.com
+$boost=3,site=politico.com
+$boost=4,site=propublica.org
+$boost=3,site=axios.com
+$boost=2,site=buzzfeednews.com
+$boost=2,site=vice.com
+
+! Canada News
+$boost=4,site=theglobeandmail.com
+$boost=4,site=thestar.com
+$boost=4,site=nationalpost.com
+$boost=4,site=cbc.ca
+$boost=4,site=ctvnews.ca
+$boost=4,site=globalnews.ca
+$boost=3,site=vancouversun.com
+$boost=3,site=ottawacitizen.com
+$boost=3,site=montrealgazette.com
+$boost=3,site=thechronicleherald.ca
+$boost=3,site=ici.radio-canada.ca
+$boost=3,site=thetyee.ca
+$boost=3,site=rabble.ca
+$boost=3,site=hilltimes.com
+$boost=3,site=thebreaker.news
+
+! United Kingdom News
+$boost=4,site=theguardian.com
+$boost=4,site=thetimes.co.uk
+$boost=4,site=telegraph.co.uk
+$boost=4,site=independent.co.uk
+$boost=4,site=ft.com
+$boost=4,site=bbc.co.uk
+$boost=4,site=itv.com
+$boost=4,site=skynews.com
+$boost=4,site=channel4.com
+$boost=3,site=theconversation.com
+$boost=3,site=opendemocracy.net
+$boost=3,site=newstatesman.com
+$boost=3,site=spectator.co.uk
+$boost=2,site=thesun.co.uk
+$boost=2,site=dailymail.co.uk
+$boost=2,site=mirror.co.uk
+$boost=2,site=express.co.uk
